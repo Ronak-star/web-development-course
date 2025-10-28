@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FoodZone - Zomato Style</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Header / Navbar -->
+  <header>
+    <div class="logo">FoodZone</div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#restaurants">Restaurants</a></li>
+        <li><a href="#popular">Popular Dishes</a></li>
+        <li><a href="#contact">Order Now</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Delicious Food Delivered To You</h1>
+      <p>Discover your favorite restaurants & order in minutes!</p>
+      <a href="#restaurants" class="btn">Order Now</a>
+    </div>
+  </section>
+
+  <!-- Restaurants Section -->
+  <section id="restaurants" class="restaurants-section">
+    <h2>Top Restaurants Near You</h2>
+    <div class="restaurant-cards">
+      <div class="restaurant-card">
+        <img src="restaurant1.jpg" alt="Restaurant 1">
+        <h3>Pizza Paradise</h3>
+        <p>Italian | ₹₹</p>
+      </div>
+      <div class="restaurant-card">
+        <img src="restaurant2.jpg" alt="Restaurant 2">
+        <h3>Sushi World</h3>
+        <p>Japanese | ₹₹₹</p>
+      </div>
+      <div class="restaurant-card">
+        <img src="restaurant3.jpg" alt="Restaurant 3">
+        <h3>Burger Hub</h3>
+        <p>Fast Food | ₹</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Popular Dishes Section -->
+  <section id="popular" class="popular-section">
+    <h2>Popular Dishes</h2>
+    <div class="dish-cards">
+      <div class="dish-card">
+        <img src="dish1.jpg" alt="Dish 1">
+        <h3>Margherita Pizza</h3>
+        <p>₹499</p>
+      </div>
+      <div class="dish-card">
+        <img src="dish2.jpg" alt="Dish 2">
+        <h3>Chicken Sushi</h3>
+        <p>₹799</p>
+      </div>
+      <div class="dish-card">
+        <img src="dish3.jpg" alt="Dish 3">
+        <h3>Cheeseburger</h3>
+        <p>₹299</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact / Order Form -->
+  <section id="contact" class="contact-section">
+    <h2>Place Your Order</h2>
+    <form id="order-form">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <input type="text" id="dish" placeholder="Dish Name" required>
+      <input type="text" id="address" placeholder="Delivery Address" required>
+      <button type="submit" class="btn">Order Now</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 FoodZone. All Rights Reserved.</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
